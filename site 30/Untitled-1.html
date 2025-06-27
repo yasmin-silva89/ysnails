@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>]
+  <title>YS Nail Designer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/32/ca95aa/nail-polish.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ca95aa;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #ca95aa;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #c0c0c0;
+    }
+
+    header img {
+      width: 150px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #c0c0c0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+      background-color: #b37d96;
+      border-top: 1px solid #c0c0c0;
+      border-bottom: 1px solid #c0c0c0;
+    }
+
+    nav a {
+      color: #c0c0c0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #b37d96;
+      border: 1px solid #c0c0c0;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 700px;
+      color: #fff;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 12px #c0c0c0;
+    }
+
+    .silver-line {
+      width: 60px;
+      height: 4px;
+      background-color: #c0c0c0;
+      margin: 20px auto;
+      border-radius: 2px;
+    }
+
+    footer {
+      background-color: #b37d96;
+      color: #c0c0c0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      border-top: 1px solid #c0c0c0;
+    }
+
+    .btn-agendar {
+      background-color: #c0c0c0;
+      color: #ca95aa;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-agendar:hover {
+      background-color: #fff;
+      color: #b37d96;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border: 2px solid #c0c0c0;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #c0c0c0;
+    }
+
+    .icon {
+      color: #c0c0c0;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/NAIL (1).png" alt="Logo YS Nail Designer" />
+    <h1>YS Nail Designer</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="sobre" class="card">
+      <h2><i class="fas fa-star icon"></i>Sobre Mim</h2>
+      <div class="silver-line"></div>
+      <p>Sou especialista em design de unhas com técnicas modernas, foco em luxo, elegância e cuidado. Transformo cada unha em uma verdadeira obra de arte.</p>
+    </section>
+
+    <section id="servicos" class="card">
+      <h2><i class="fas fa-hand-sparkles icon"></i>Serviços</h2>
+      <div class="silver-line"></div>
+      <p>✨ Alongamento de Unhas<br>
+         ✨ Nail Art Personalizada<br>
+         ✨ Francesinha Luxuosa<br>
+         ✨ Manicure & Pedicure<br>
+         ✨ Spa das Pés</p>
+    </section>
+
+    <section id="galeria" class="card">
+      <h2><i class="fas fa-images icon"></i>Galeria</h2>
+      <div class="silver-line"></div>
+      <div class="galeria">
+        <img src="img/unha.jpg" alt="Unha 1">
+        <img src="img/unha1.jpg" alt="Unha 2">
+        <img src="img/unha2.jpg" alt="Unha 3">
+        <img src="img/unha3.jpg" alt="Unha 4">
+        <img src="img/unha 8.jpg" alt="Unha 1">
+        <img src="img/unha5.jpg" alt="Unha 2">
+        <img src="img/unha6.jpg" alt="Unha 3">
+        <img src="img/unha4.jpg" alt="Unha 4">
+        <img src="img/unha7.jpg" alt="Unha 4">
+      </div>
+    </section>
+
+    <section id="contato" class="card">
+      <h2><i class="fas fa-phone icon"></i>Contato</h2>
+      <div class="silver-line"></div>
+      <p>
+        📍 Studio Elegância - Centro<br>
+        📱 WhatsApp: (21) 97226-6919<br>
+        📸 Instagram: @nails_studio_yasmin
+      </p>
+      <a class="btn-agendar" href="https://wa.me/5521972266919" target="_blank">
+        <i class="fab fa-whatsapp"></i> Agendar Agora
+      </a>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 YS Nail Designer — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
